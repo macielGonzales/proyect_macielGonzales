@@ -1,4 +1,5 @@
-Feature: Ejemplos practicos Karate
+@automation-api
+Feature: US 001 | TS3 | Añadir un producto
     @CP07
     Scenario: Crear un post con docString en variable
     * def body = read('classpath:resources/json/auth/bodyLogin.json')
@@ -10,3 +11,8 @@ Feature: Ejemplos practicos Karate
     And match response.title == "foo"
     And match response.body == "bar"
     And match response.userId == 1
+
+    Scenario Outline: US 001 | TS3 | TC#1:
+    Scenario Outline: US 001 | TS3 | TC#2:
+    Scenario Outline: US 001 | TS3 | TC#3:
+    Scenario Outline: US 001 | TS3 | TC#4:

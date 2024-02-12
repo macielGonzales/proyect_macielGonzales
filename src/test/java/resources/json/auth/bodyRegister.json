@@ -1,0 +1,14 @@
+{
+  "data": {
+    "nombre": "#string",
+    "email": "#string",
+    "password": "#regex[0-9]-8",
+    "estado": "#number",
+    "tipo_usuario_id": "#number",
+    "updated_at": "#notnull",
+    "created_at": "#notnull",
+    "id": "#number"
+  },
+  "access_token": "#notnull",
+  "token_type": "#ignore"
+}
