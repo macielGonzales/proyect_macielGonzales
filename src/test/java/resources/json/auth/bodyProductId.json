@@ -1,0 +1,12 @@
+{
+  "id": "#number",
+  "codigo": "#string",
+  "nombre": "#string",
+  "medida": "#string",
+  "marca": "#string",
+  "categoria": "#string",
+  "precio": "#string",
+  "stock": "#string",
+  "estado": "#string",
+  "descripcion": "#string"
+}

@@ -1,0 +1,11 @@
+{
+  "codigo": "TC0305",
+  "nombre": "iphone",
+  "medida": "UND",
+  "marca": "Generico",
+  "categoria": "Repuestos",
+  "precio": 4000,
+  "stock": 300,
+  "estado": 3,
+  "descripcion": "pro 13"
+}

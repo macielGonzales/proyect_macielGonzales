@@ -2,7 +2,7 @@
   "data": {
     "nombre": "#string",
     "email": "#string",
-    "password": "#regex[0-9]-8",
+    "password": "#notnull",
     "estado": "#number",
     "tipo_usuario_id": "#number",
     "updated_at": "#notnull",

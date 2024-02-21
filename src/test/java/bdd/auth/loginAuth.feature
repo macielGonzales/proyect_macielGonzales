@@ -27,3 +27,12 @@ Feature: US 001 | TS1 | Loguear al usuario al sistema
       | email        | password |
       | carloszgmail | 12345    |
       | maciel@      | 2020     |
+
+
+    #usado como background (pre requisito) para los otros casos de prueba
+  @login
+  Scenario: Login dinamico
+    Given request {"email": #(email), "password": #(password)}
+    When method post
+    Then status 200
+    * def authToken = response.access_token
